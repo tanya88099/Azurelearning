@@ -1,9 +1,9 @@
-Module 1: Azure Data Factory (ADF) – Data Pipelines
-🧠 Theory:
+**Module 1: Azure Data Factory (ADF) – Data Pipelines**
+🧠** Theory:**
 ADF is an ETL tool in Azure to orchestrate and automate data workflows from source to destination (SFTP, RDBMS, Blob, etc.).
-🛠 Resume Line:
+🛠 **Resume Line:**
 "Designed and deployed 15+ data pipelines in Azure Data Factory to automate ingestion from SFTP, RDBMS, SQL Datahub, and Datawarehouse"
-✅ Practical Steps:
+✅ **Practical Steps:**
 1.	Go to Azure Portal → Create ADF instance.
 2.	Author a pipeline using Copy Activity:
 o	Source: SFTP or SQL Server (use sample database like AdventureWorks)
@@ -13,15 +13,15 @@ o	Sink: Azure Blob or Azure SQL DB
 5.	Explore Data Flow for transformations
 🎯 Practice Task: Build 3 pipelines (SFTP→Blob, SQL→Blob, Blob→SQL DB)
 
-Start from here: 
-✅ MODULE 1: Automating Data Pipelines with Azure Data Factory (ADF)
-🎯 Objective:
+**Start from here:** 
+✅ **MODULE 1: Automating Data Pipelines with Azure Data Factory (ADF)**
+🎯 **Objective:**
 Build 3 pipelines that ingest data from:
 •	✅ SFTP → Azure Blob Storage
 •	✅ SQL Server (on-prem/cloud) → Azure Blob Storage
 •	✅ Azure Blob → Azure SQL Database
 ________________________________________
-🔸 THEORY OVERVIEW
+**🔸 THEORY OVERVIEW**
 What is ADF?
 Azure Data Factory is a cloud-based ETL and data integration service that lets you:
 •	Move data from 90+ sources (on-prem/cloud)
@@ -34,7 +34,7 @@ Dataset	Metadata of the data you want to move (table/file)
 Pipeline	The workflow that contains activities (e.g., copy)
 Trigger	A way to schedule a pipeline (manual, scheduled)
 ________________________________________
-🔸 PRACTICAL SETUP
+**🔸 PRACTICAL SETUP**
 🧩 Prerequisites:
 1.	✅ Azure Subscription: https://azure.microsoft.com/free/
 2.	✅ Azure Storage Account with Blob container
