@@ -1,4 +1,5 @@
 **Module 1: Azure Data Factory (ADF) – Data Pipelines**
+
 🧠** Theory:**
 ADF is an ETL tool in Azure to orchestrate and automate data workflows from source to destination (SFTP, RDBMS, Blob, etc.).
 🛠 **Resume Line:**
